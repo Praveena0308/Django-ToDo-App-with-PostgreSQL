@@ -7,4 +7,4 @@ COPY ./TodoProject/ app/
 
 EXPOSE 3000
 
-CMD [ "python", "manage.py"]
+CMD ["python", "TodoProject/manage.py", "runserver"]
