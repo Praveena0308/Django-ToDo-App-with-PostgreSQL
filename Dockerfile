@@ -2,7 +2,7 @@ FROM python:3-alpine
 
 WORKDIR /app/
 
-COPY ./TodoProject/ app/
+COPY . /app
  
 
 EXPOSE 3000
